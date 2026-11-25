@@ -1,0 +1,66 @@
+CDT505 名词解释全解 · 中英对照   ·   第 9 页 
+L4-06   AOA   双代号网络图 
+①In Activity-on-Arrow the activity is drawn on the arrow and the nodes represent events. ② The nodes represent events, the arrows represent activities, and dummy 
+arrows are added when two activities would otherwise share the same start and end event.  
+节点代表事件、箭线代表活动，当两个活动会共用同一对起止节点时就要加虚箭线。例如 B 和 C 都在 A 之后开始，但只有 B 必须先于 D，就必须用一条虚箭线保证逻辑
+正确。 
+L4-07   Merge activity   汇聚活动 
+①A merge activity has two or more immediate predecessors. ② Its earliest start is the largest earliest finish among all of its immediate predecessors, which is why the 
+forward pass takes the maximum at a merge.  
+它的最早开始时间等于所有紧前活动中最大的最早完成时间，所以正推法在汇聚点取最大值。例如「集成测试」必须等「单元测试」和「文档编写」都完成才能开始，
+它就是汇聚活动。 
+L4-08   Burst activity   发散活动 
+①A burst activity has two or more immediate successors. ② Its latest finish is the smallest latest start among all of its immediate successors, which is why the 
+backward pass takes the minimum at a burst.  
+它的最晚完成时间等于所有紧后活动中最小的最晚开始时间，所以逆推法在发散点取最小值。例如「设计获批」之后同时有「采购」和「施工」，它就是发散活动。 
+L4-09   Dummy activity   虚活动 
+①A dummy activity is a dashed arrow in an AOA network that shows logic only, with zero duration and zero cost. ② It has zero duration and zero cost, is drawn as a 
+dashed arrow, and exists only to express the correct logic between events.  
+它工期为零、成本为零，画成虚线箭头，只用来表达事件之间正确的逻辑关系。例如 B、C 都依赖 A，但只有 B 必须先于 D 时，就要从 A 的结束节点画一条虚箭线到 D 
+的开始节点。 
+L4-10   Forward pass   正推法 
+①The forward pass calculates the earliest start and finish (ES, EF) from start to finish, taking the largest EF at a merge. ② It starts at the beginning of the network with 
+ES equal to zero, sets EF = ES + duration, and takes the maximum EF when several activities merge into one.  
+它从网络起点开始，令 ES 为零，EF = ES + 工期，当多个活动汇入同一活动时取最大的 EF。例如 A 在第 5 周完成、B 在第 6 周完成，那么同时依赖两者的活动最早只能
+在第 6 周开始。 
+L4-11   Backward pass   逆推法 
+①The backward pass calculates the latest finish and start (LF, LS) from finish to start, taking the smallest LS at a burst. ② It starts at the end of the network with LF 
+equal to the project duration, sets LS = LF − duration, and takes the minimum LS when one activity bursts into several successors.  
+它从网络终点开始，令 LF 等于项目总工期，LS = LF − 工期，当一个活动发散到多个紧后活动时取最小的 LS。例如项目在第 30 周结束、最后一个活动持续 4 周，它的最
+晚开始就是第 26 周。 
+L4-12   ES / EF / LS / LF   最早开始/完成，最晚开始/完成 
+①ES and EF are the earliest an activity can start and finish; LS and LF are the latest it can start and finish without delaying the project. ② The four values are written in 
+the four corners of an AON node, and the difference between LS and ES (or LF and EF) gives the total float of the activity.  
+这四个值写在单代号节点四角，LS 与 ES（或 LF 与 EF）之差就是该活动的总浮动。例如某活动 ES=5、EF=12、LS=7、LF=14，则总浮动为 2 周。 
+L4-13   Total float   总浮动时间 
+①Total float is the time an activity can be delayed without delaying the project finish: TF = LF − EF = LS − ES. ② It is calculated as TF = LF − EF = LS − ES, and it is the 
+amount of time an activity can slip without delaying the project finish date.  
+计算方式为 TF = LF − EF = LS − ES，表示活动在不拖延项目完工日期的前提下可以推迟的时间。例如总浮动为 2 周的活动可以晚开工 2 周，项目仍按原日期完成。 
+L4-14   Free float   自由浮动时间 
+①Free float is the time an activity can be delayed without delaying the early start of any successor. ② It is calculated as FF = (earliest start of the successors) − EF, so it 
+is the delay that harms no successor at all.  
+计算方式为 FF = 紧后活动的最早开始 − EF，即完全不影响任何紧后活动的可推迟时间。例如某活动第 12 周完成、其紧后活动第 14 周才开始，则自由浮动为 2 周。 
+L4-15   Critical path   关键路径 
+①The critical path is the longest path through the network; all its activities have zero float and it determines the project duration. ② It is found either by identifying 
+the longest path through the network or by selecting the activities whose total float is zero, and a network can have more than one critical path.  
+找法有两种：找出网络中最长的路径，或挑出总浮动为零的活动；一个网络可以有多条关键路径。例如课堂 A–H 网络图中关键路径是 A-C-D-F-H，总工期 30 周。 
+L4-16   Deterministic estimate   确定性估算 
+①A deterministic estimate assumes that activity durations are fairly predictable and ignores variability. ② It uses a single duration for each activity and assumes that 
+this duration will actually be achieved.  
+它给每个活动一个确定的工期，并假设这个工期能够实现。例如 CPM 中「设计需要 10 天」这样的固定工期就是确定性的。 
+L4-17   Probabilistic estimate   概率性估算 
+①A probabilistic estimate recognises uncertainty and uses a range or distribution of durations. ② It uses a range of durations, a probability distribution, or three 
+estimates (optimistic, most likely and pessimistic) for each activity.  
+它给每个活动使用工期区间、概率分布，或三个估算值（乐观、最可能、悲观）。例如 PERT 用三点估算构造项目完工日期的概率分布。 
+L4-18   Three-point estimate   三点估算 
+①The three-point estimate uses TE = (a + 4m + b) / 6, where a is optimistic, m most likely and b pessimistic. ② It is calculated as TE = (a + 4m + b) / 6, where a is the 
+optimistic, m the most likely and b the pessimistic duration, so the most likely value carries four times the weight.  
+计算方式为 TE = (a + 4m + b) / 6，其中 a 为乐观、m 为最可能、b 为悲观工期，最可能值的权重是 4 倍。例如 a=4、m=6、b=14 周，则 TE = (4 + 24 + 14) / 6 = 7 周。 
+L4-19   Beta distribution   贝塔分布 
+①The beta distribution is an asymmetric probability distribution commonly used for activity durations. ② It is asymmetric, so it can be skewed towards the optimistic 
+or the pessimistic side, which matches the way activity durations usually behave.  
+它是非对称的，可以向乐观或悲观一侧偏斜，这正好符合活动工期的实际分布。例如某项工作通常 5 天完成，但供应商出问题可能要 20 天，就明显右偏。 
+L4-20   Standard deviation   标准差 
+①For each activity σ = (b − a) / 6 and variance σ² = [(b − a)/6]²; project variance sums the critical-path variances. ② For each activity σ = (b − a) / 6 and the variance is 
+σ²; the project variance is the sum of the variances of the activities on the critical path.  
+每个活动的 σ = (b − a) / 6，方差为 σ²；项目方差等于关键路径上各活动方差之和。例如 a=4、b=14 周时，该活动的 σ = (14 − 4) / 6 = 1.67 周。

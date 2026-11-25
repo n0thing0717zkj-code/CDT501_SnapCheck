@@ -1,0 +1,64 @@
+CDT505 名词解释全解 · 中英对照   ·   第 7 页 
+L3-03   Project scope   项目范围 
+①Project scope is the work that must be performed to deliver a product, service or result with the specified features. ② It is documented in the project scope 
+statement and then decomposed into work packages in the WBS.  
+项目范围写在项目范围说明书里，再在 WBS 中分解成工作包。例如交付一个移动 App 需要设计、编码、集成、测试、培训和上线等工作，这些都必须出现在项目范围
+中。 
+L3-04   Requirement   需求 
+①A requirement is a condition or capability that must be met by the project; a good requirement is measurable. ② Requirements are collected through interviews, 
+workshops, prototypes, observation and document analysis, and then analysed, prioritised and approved.  
+需求通过访谈、工作坊、原型、观察和文档分析收集，然后分析、排优先级并审批。例如「系统 95% 的请求必须在 2 秒内响应」是可用的需求，而「系统要快」不是，
+因为无法测试。 
+L3-05   Scope management plan   范围管理计划 
+①The scope management plan documents how project and product scope will be defined, validated and controlled. ② It defines the processes, roles, templates and 
+the change procedure that will be used to define, validate and control scope throughout the project.  
+它规定整个项目期间用于定义、核实和控制范围的过程、角色、模板和变更程序。例如其中会写明 WBS 必须在执行前得到发起人批准、任何新功能都必须走正式变更
+申请。 
+L3-06   Project charter   项目章程 
+①The project charter is the document issued by the sponsor that formally authorises the project and gives the project manager authority to apply resources. ② It 
+states the project purpose, high-level scope, key milestones, budget, main risks, the sponsor and the authority of the project manager, and it is issued before detailed 
+planning begins.  
+它写明项目目的、高层级范围、关键里程碑、预算、主要风险、发起人以及 PM 的权限，并在详细计划之前签发。例如银行批准移动支付项目时，章程会指定发起人和
+项目经理，并授权支出第一笔预算。 
+L3-07   Project scope statement   项目范围说明书 
+①The project scope statement describes the project in detail: deliverables, boundaries, acceptance criteria and exclusions. ② It contains the product scope 
+description, the deliverables, the acceptance criteria, the project exclusions, the constraints and the assumptions.  
+它包含产品范围描述、可交付成果、验收标准、项目排除项、约束和假设。例如其中写明 App 覆盖 iOS 与安卓，但网页版明确不在本项目范围内。 
+L3-08   WBS   工作分解结构 
+①A WBS is a deliverable-oriented hierarchical decomposition of the total scope of work. ② It is built level by level, from the whole project to major deliverables, then 
+to sub-deliverables and finally to work packages, and every level must contain all the work of the level above.  
+WBS 逐层构建：从整个项目到主要可交付成果，再到子交付物，最后到工作包，每一层必须包含上一层全部工作。例如建房项目可分解为设计、结构、机电、装修、
+移交。 
+L3-09   Work package   工作包 
+①A work package is the lowest level of the WBS, where cost and duration can be estimated and work can be assigned. ② It is small enough to be estimated in cost 
+and duration and to be assigned to a single owner, but not so small that controlling it costs more than doing it.  
+它小到可以估算成本和工期、可以交给唯一责任人，但又不能小到管理成本超过做事成本。例如「完成二层电气布线」可以是一个工作包，工期 5 天、预算 8000 美元。 
+L3-10   Decomposition   分解 
+①Decomposition is the technique of subdividing project scope and deliverables into smaller, more manageable components. ② It can be done top-down from the 
+total scope or bottom-up by grouping detailed tasks, and the team should participate because they know the work best.  
+分解可以自上而下从总范围开始，也可以自下而上把细任务归组，并且应让团队参与，因为他们最懂工作。例如「测试」可分解为单元测试、集成测试、用户验收测
+试。 
+L3-11   100% rule   100% 规则 
+①The 100% rule states that the WBS must include 100% of the work defined by the project scope and nothing more. ② It applies at every level of the WBS: the sum of 
+the child elements must equal 100% of the parent element, no more and no less.  
+它在 WBS 每一层都适用：子元素之和必须正好等于父元素的 100%，不能多也不能少。例如培训没写进 WBS，就不会被估算、不会排期、不会配资源，最后就是不做。 
+L3-12   WBS dictionary   WBS 词典 
+①The WBS dictionary describes each WBS component: its scope, deliverables, acceptance criteria, cost and responsible person. ② It records the code of accounts, the 
+description of the work, the deliverables, the acceptance criteria, the cost, the duration, the responsible person and the dependencies of each WBS component.  
+它记录每个 WBS 元素的账目编码、工作描述、可交付成果、验收标准、成本、工期、责任人和依赖关系。例如「二层电气布线」这个工作包，词典会列出材料、要遵
+循的电气标准和负责电工的姓名。 
+L3-13   Scope baseline   范围基准 
+①The scope baseline is the approved project scope statement plus the WBS and the WBS dictionary. ② It is approved by the sponsor and can only change through 
+integrated change control, which is why it gives a stable reference for measuring performance.  
+它由发起人批准，只能通过整体变更控制修改，因此能为绩效度量提供稳定参照。例如批准一个新功能时，范围说明书、WBS 和 WBS 词典必须一起更新，基准才保持
+一致。 
+L3-14   OBS   组织分解结构 
+①The OBS is an organisational breakdown structure that assigns work packages to departments and owners. ② It breaks the organisation down into departments, 
+units and teams, and each work package is mapped to one organisational unit.  
+它把组织分解为部门、单元和团队，每个工作包映射到一个组织单元。例如 WBS 中的「测试」在 OBS 中对到质量部，「施工」对到工程部。 
+L3-15   RAM / RACI   责任分配矩阵 
+①A responsibility assignment matrix links work packages to people; RACI stands for responsible, accountable, consult and inform. ② R means responsible, the person 
+who does the work; A means accountable, the one person who owns the result and approves it; C means consulted, people who give input; I means informed, people 
+who are kept up to date.  
+R 是执行者（真正干活的人），A 是问责者（唯一对结果负责并批准的人），C 是被咨询者（提供意见），I 是被告知者（只需知会）。例如某个工作包：工程师是 R，
+PM 是 A，质量部是 C，发起人是 I。

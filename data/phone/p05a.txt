@@ -1,0 +1,41 @@
+CDT505 名词解释全解 · 中英对照   ·   第 13 页 
+L6-14   Share risk   分担风险 
+①Sharing a risk allocates it to a partner who is better able to manage it, as in a joint venture or consortium. ② It is achieved through collaborative ventures such as 
+joint ventures, consortia or partnership contracts, so that both parties share the cost of the risk and the benefit of the opportunity.  
+它通过合资、联合体或合伙合同等合作方式实现，双方共同承担风险成本、共享机会收益。例如欧洲空间局与空客联合体把新飞机的研发风险分散到多个国家和公司。 
+L6-15   Transfer risk   转移风险 
+①Transferring a risk moves its financial consequence to a third party, for example through insurance or a fixed-price contract. ② It moves the financial consequence 
+of a risk to a third party through insurance, guarantees, warranties or fixed-price contracts.  
+它通过保险、担保、保修或固定总价合同，把风险的财务后果转移给第三方。例如固定总价合同把成本超支风险转移给承包商，承包商则通过提高报价来承担这个风
+险。 
+L6-16   Contingency reserve   应急储备 
+①A contingency reserve is time or money set aside to cover identified risks; a task contingency sits in the task budget, a managerial contingency is held at project level. 
+② A task contingency is added to the budget of an individual task, while a managerial contingency is held at project level for risks that cannot be assigned to one task.  
+任务应急金加在单个任务的预算里，管理应急金则留在项目层面，用于无法归到某个任务的风险。例如估算 10,000 美元的高风险活动可以加 20% 任务应急金，预算变
+成 12,000 美元。 
+L6-17   Contingency expected cost   应急期望成本 
+①The contingency expected cost is the task estimated cost multiplied by the task contingency multiplier: $10,000 × 1.2 = $12,000. ② It is calculated as (task estimated 
+cost) × (task contingency multiplier).  
+计算方式为（任务估算成本）×（任务应急乘数）。例如估算 10,000 美元、应急乘数 1.2 的任务，期望成本为 10,000 × 1.2 = 12,000 美元。 
+L6-18   Risk register   风险登记册 
+①The risk register records each risk, its probability, impact, owner, response and current status. ② It records the risk ID, description, category, probability, impact, risk 
+factor, owner, chosen response and current status, and it is reviewed at every project meeting.  
+它记录风险编号、描述、类别、概率、影响、风险因子、责任人、所选应对和当前状态，并在每次项目会议上评审。例如登记册可以列出 10 个活跃风险，每个都有责
+任人和评审日期。 
+L6-19   PRAM   项目风险分析与管理 
+①PRAM is a generic nine-phase methodology for project risk analysis and management: define, focus, identify, structure, clarify ownership, estimate, evaluate, plan 
+and manage. ② The nine phases are define, focus, identify, structure, clarify ownership, estimate, evaluate, plan and manage.  
+九个阶段是：定义、聚焦、识别、结构化、明确归属、估算、评价、计划、管理。例如建筑公司可以对每个新项目套用 PRAM，让风险工作每次都按同样顺序进行。 
+L6-20   Control and documentation   控制与文档化 
+①Control and documentation record risks, responses and outcomes so that the organisation can reuse the lessons learned. ② It tracks the status of each risk, records 
+which responses were used and what actually happened, and files the results in a risk database.  
+它跟踪每个风险的状态、记录用了哪些应对以及实际结果，并把结果存入风险数据库。例如项目收尾后，风险登记册就成了后续类似项目可复用的检查清单，每项应
+对的实际效果也成为下次估算的依据。 
+L6-21   Insurance   保险 
+①Insurance is a transfer strategy in which the project pays a premium to a third party that bears the financial consequence if a defined event occurs. ② It is a transfer 
+strategy: the project pays a premium to an insurer, and the insurer bears the financial consequence if the defined event occurs.  
+它是一种转移策略：项目向保险公司支付保费，一旦约定事件发生，由保险公司承担财务后果。例如建筑工程一切险覆盖施工期间的火灾、水灾和第三方损害。 
+L6-22   Workaround   权变措施 
+①A workaround is an unplanned response to a risk that was not identified in advance. ② It is used when the risk happens before anyone has analysed it, or when the 
+planned response turns out not to work, so there is no time to design a formal response.  
+它是在风险事先没被识别、或原定应对失效时采用的被动应对。例如供应商毫无预警地破产，团队必须迅速找到并认证替代供应商以保住工期。

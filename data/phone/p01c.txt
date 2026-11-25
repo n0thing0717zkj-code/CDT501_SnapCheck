@@ -1,0 +1,62 @@
+CDT505 名词解释全解 · 中英对照   ·   第 3 页 
+  L1  项目管理导论    24 terms   
+  Introduction to Project Management 
+  本讲最容易抽到的三个：project vs operations、triple constraint、deliverable。   
+ 
+L1-01   Project   项目 
+①A project is a temporary endeavour undertaken to create a unique product, service or result. ② Its key characteristics are a definite beginning and a definite end, a 
+unique output, progressive elaboration and the termination of the work once the objectives are met.  
+项目的关键特征是：有明确起点与终点、产出独特、渐进明细，目标一旦达成工作即终止。例如设计一款新车、或为公司部署新的数据安全系统都是项目：有始有终、
+成果前所未有。 
+L1-02   Operations   运营 
+①Operations are ongoing, repetitive activities that produce the same output and sustain the business. ② It is repetitive, it produces the same output again and again, 
+and once one objective is reached the organisation adopts a new set of objectives and continues the work, so the cycle never really ends.  
+运营是重复性的：同样的事情一遍遍做，一个目标达成后换一组新目标继续做。例如生产线每天生产 500 件相同产品、银行柜台每天接待客户，都是运营而非项目。 
+L1-03   Project management   项目管理 
+①Project management is the application of knowledge, skills, tools and techniques to project activities to meet the project requirements. ② It covers the five process 
+groups (initiating, planning, executing, monitoring and controlling, and closing) and the ten knowledge areas such as scope, schedule, cost and risk.  
+项目管理覆盖五大过程组（启动、规划、执行、监控、收尾）和十大知识领域（范围、进度、成本、风险等）。例如软件项目中，PM 要做 WBS、排进度、编预算、跟
+踪进展并管理风险与干系人。 
+L1-04   Triple constraint   三重约束 
+①The triple constraint is the interdependence of scope, time and cost, with quality in the centre. ② If one of them changes, at least one of the other two must be 
+adjusted, which is why the model behaves like a trade-off rather than a fixed target.  
+三重约束相互依赖：其中一个变化，另外至少一个必须调整。例如项目中途客户增加范围，PM 就必须要求更多时间、更多钱，或两者都要。 
+L1-05   Quadruple constraint   四重约束 
+①The quadruple constraint adds quality or customer satisfaction to scope, time and cost. ② Quality or customer satisfaction sits at the centre of the model and is 
+affected by all three of the other constraints.  
+质量（客户满意）位于模型中心，并受范围、时间、成本三者共同影响。例如建筑项目一味压成本，材料质量必然下降，客户就不满意。 
+L1-06   Iron triangle   铁三角 
+①The iron triangle is the traditional trade-off among cost, time and quality (scope). ② If the customer wants the product faster, either the cost must rise or the scope 
+and quality must fall, so the three sides always move together.  
+客户要求更快时，要么成本上升，要么范围与质量下降，三条边总是联动。例如发起人要求把工期提前两个月，PM 要么加人加班（成本），要么砍掉部分收尾工作
+（范围与质量）。 
+L1-07   Deliverable   可交付成果 
+①A deliverable is any unique and verifiable product, service or result that must be produced to complete the project. ② A deliverable can be tangible, such as a 
+building or a report, or intangible, such as a brand image, customer satisfaction or a trained team.  
+可交付成果可以是有形的（建筑、报告），也可以是无形的（品牌形象、客户满意、训练好的团队）。例如 WBS 是围绕可交付成果而不是按部门分解的，所以每个分
+支都有可验证的产出。 
+L1-08   Milestone   里程碑 
+①A milestone is a significant point or event in the project with zero duration. ② It has zero duration, consumes no resources and no cost, and is usually drawn as a 
+diamond in a Gantt chart.  
+里程碑工期为零，不耗资源也不耗成本，在甘特图上通常画成菱形。例如「设计通过审批」「测试完成」「系统上线」都是典型里程碑。 
+L1-09   Project life cycle   项目生命周期 
+①The project life cycle is the series of phases a project passes through: conceptualisation, planning, execution and termination. ② Each phase normally ends with a 
+review and a go/no-go decision, and the cost of changes rises sharply as the project moves forward.  
+四个阶段是概念、计划、执行、收尾，每个阶段结束通常有一次评审和「继续/终止」决策。例如建筑项目从可行性研究到设计、施工，最后移交与收尾。 
+L1-10   Process group   过程组 
+①A process group is a logical grouping of project management processes: initiating, planning, executing, monitoring and controlling, and closing. ② Planning 
+processes are repeated at the start of every phase, and monitoring and controlling processes run continuously while the work is executed.  
+五大过程组是启动、规划、执行、监控、收尾。例如收尾过程在每个阶段结束时都要做，而不是只在项目最后做一次。 
+L1-11   Knowledge area   知识领域 
+①A knowledge area is a group of related processes by subject, such as scope, schedule, cost, quality and risk. ② The ten knowledge areas are integration, scope, 
+schedule, cost, quality, resource, communication, risk, procurement and stakeholder management.  
+十大知识领域是整合、范围、进度、成本、质量、资源、沟通、风险、采购、干系人管理。例如 WBS 属于范围管理，CPM 属于进度管理，风险登记册属于风险管理。 
+L1-12   Program   项目集 
+①A program is a group of related projects managed in a coordinated way to obtain benefits not available from managing them individually. ② The projects are linked 
+by a common objective and share people, budget and facilities, so they must be coordinated rather than managed independently.  
+项目集内的项目由共同目标连接，集中管理以获得单独管理得不到的收益（1+1>2）。例如银行数字化转型中的手机银行、核心系统升级、数据平台可以作为一个项目
+集管理。 
+L1-13   Program management   项目集管理 
+①Program management is the coordinated management of interdependent projects to achieve strategic objectives. ② It focuses on benefits realisation, on the 
+interdependencies between projects and on the allocation of shared resources such as people, budget and facilities.  
+项目集管理关注收益实现、项目之间的依赖关系，以及人员、预算、设施等共享资源的分配。例如两个项目同时需要稀缺的测试团队时，由项目集经理决定先给谁。

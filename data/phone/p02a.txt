@@ -1,0 +1,66 @@
+CDT505 名词解释全解 · 中英对照   ·   第 5 页 
+L2-03   Talent triangle   人才三角 
+①The PMI talent triangle defines three skill areas: ways of working, power skills and business acumen. ② Ways of working are the technical skills such as scheduling, 
+budgeting and risk analysis; power skills are leadership, communication, negotiation and conflict resolution; business acumen is strategy, finance and industry 
+knowledge.  
+工作方式是技术技能（排程、预算、风险分析）；人际技能是领导力、沟通、谈判、冲突解决；商业敏锐度是战略、财务与行业知识。例如会画完美甘特图却搞不定
+强势发起人的 PM，技术强但人际弱。 
+L2-04   Greenfield project   新建场地项目 
+①A greenfield project is built on a new site, starting from scratch with few existing constraints. ② The team can choose the site, the technology and the design freely, 
+and there are few legacy systems or existing users to integrate with.  
+团队可以自由选择场地、技术和设计，几乎没有旧系统或既有用户需要整合。例如在空地上建新工厂、在新厂房里上线全新产品线，都是新建场地项目。 
+L2-05   Brownfield project   既有场地项目 
+①A brownfield project is built on an existing site, so it faces many constraints and interfaces. ② The team must work around existing buildings, utilities, systems and 
+users, so interfaces and hidden constraints are the main source of risk.  
+团队必须绕开既有建筑、管线、系统和用户，接口与隐藏约束是主要风险来源。例如老工厂不停产改造、银行核心系统在不停业的情况下替换，都是既有场地项目。 
+L2-06   Methodology   方法论 
+①A methodology is a system of practices, techniques, procedures and rules used by those who work in a discipline. ② It is prescriptive: it tells the team what to do, in 
+what order, with which documents and templates, and how each stage should be approved.  
+方法论是规定性的：告诉团队做什么、按什么顺序、用什么文档模板、每个阶段如何审批。例如 PRINCE2、或企业自有的阶段关卡流程，都是方法论，因为它详细规定
+了角色、产出和决策点。 
+L2-07   Framework   框架 
+①A framework is a flexible structure of principles and guidelines that can be adapted to the project. ② It provides principles, roles and processes that the team must 
+adapt to the specific project, so two projects can use the same framework in very different ways.  
+框架只给原则、角色和流程，团队必须根据具体项目做剪裁，所以同一框架在两个项目里用法可以完全不同。例如 PMBOK 指南和 Scrum 都是框架：描述良好实践长什
+么样，细节留给团队裁剪。 
+L2-08   Critical chain project management   关键链项目管理 
+①Critical chain project management schedules with resource buffers and protects the longest resource-constrained path. ② It removes the safety time hidden in each 
+activity, aggregates that time into buffers at the end of the chain, and controls the project by monitoring how fast the buffers are consumed.  
+它把每个活动里藏的安全时间抽出来，集中成链条末端的缓冲，并通过监控缓冲消耗速度来控制项目。例如五名工程师共用一台测试设备时，关键链按受资源约束的
+顺序排，并用汇入缓冲保护它。 
+L2-09   Strategic management   战略管理 
+①Strategic management is the science of formulating, implementing and evaluating cross-functional decisions to achieve organisational objectives. ② It links the 
+mission and objectives of the organisation to strategies, and then to programs and projects that actually deliver the strategy.  
+它把组织的使命与目标连到战略，再连到真正落地战略的项目集和项目。例如零售商决定进入线上市场，这个战略就通过由 IT、物流、营销多个项目组成的电商项目
+集来实现。 
+L2-10   TOWS matrix   TOWS 矩阵 
+①The TOWS matrix pairs external threats and opportunities with internal weaknesses and strengths to generate SO, ST, WO and WT strategies. ② SO strategies use 
+internal strengths to exploit external opportunities, WO strategies overcome internal weaknesses to capture opportunities, ST strategies use strengths to avoid 
+external threats, and WT strategies minimise weaknesses and avoid threats.  
+SO 用优势抓机会，WO 补劣势抓机会，ST 用优势避威胁，WT 减少劣势并避开威胁。例如研发能力强的企业（优势）借此进入增长市场（机会），就是 SO 战略。 
+L2-11   Stakeholder   干系人 
+①Stakeholders are all individuals or groups who have an active stake in the project and can potentially impact its outcome. ② Stakeholders include the sponsor, the 
+customer, the users, the project team, functional managers, suppliers, the government and even the public, and they can be internal or external to the organisation.  
+干系人包括发起人、客户、用户、项目团队、职能经理、供应商、政府甚至公众，可以是组织内部或外部的。例如工地旁的居民也是干系人：噪音和交通影响他们，
+而他们的投诉可能让工程停工。 
+L2-12   Stakeholder register   干系人登记册 
+①A stakeholder register records each stakeholder's role, expectations, influence and management strategy. ② It is a living document that records contact details, role, 
+expectations, influence, power/interest rating, current engagement level and the chosen management strategy.  
+它是活文档：记录联系方式、角色、期望、影响力、权力/利益评级、当前参与程度和所选管理策略。例如登记册里发起人是高权力高利益、「重点管理」，供应商是
+「保持告知」。 
+L2-13   Power/interest grid   权力-利益矩阵 
+①The power/interest grid classifies stakeholders by power and interest: manage closely, keep satisfied, keep informed or monitor. ② High power and high interest 
+stakeholders must be managed closely, high power and low interest stakeholders must be kept satisfied, low power and high interest stakeholders must be kept 
+informed, and low power and low interest stakeholders only need monitoring.  
+高权力高利益要重点管理，高权力低利益要保持满意，低权力高利益要保持告知，低权力低利益只需监控。例如监管机构权力高但日常兴趣低，PM 用定期合规报告让
+它满意，而不是天天汇报。 
+L2-14   Cooperation-threat matrix   合作-威胁矩阵 
+①The cooperation/threat matrix classifies stakeholders by their willingness to cooperate and their potential to threaten the project. ② Stakeholders range from 
+supportive, who cooperate and pose little threat, to marginal, to non-supportive, to adversarial, who actively oppose the project and have the power to damage it.  
+干系人从支持型（合作、威胁小）到边缘型、非支持型，再到对抗型（公开反对且有破坏力）。例如一个既可能支持项目、又可能把信息泄露给竞争对手的供应商，
+就落在高合作、高威胁象限。 
+L2-15   Communication plan   沟通计划 
+①A communication plan defines who needs what information, when, in what form and from whom. ② It specifies the sender, the receiver, the message content, the 
+medium, the frequency and the feedback mechanism for each audience, and it becomes part of the project management plan.  
+它规定每个受众的发送者、接收者、内容、媒介、频率和反馈方式，并纳入项目管理计划。例如发起人每周五收一页状态报告，团队每天 15 分钟站会，客户每轮迭代
+看一次演示。

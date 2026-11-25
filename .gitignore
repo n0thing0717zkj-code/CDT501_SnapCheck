@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+.venv/
+
+# large datasets / generated images (reproducible with make_dataset.py)
+data/clean/*
+data/degraded/*
+data/_check/*
+data/print/*
+data/phone_prepared/
+data/phone/_old_photos/
+data/phone/*.jpg
+data/phone/*.jpeg
+data/phone/*.png
+data/source/
+
+# generated figures (reproducible with make_figures.py)
+out/demo/*
+out/figures/*
+
+# keep placeholders and small metadata
+!data/clean/.gitkeep
+!data/degraded/.gitkeep
+!out/figures/.gitkeep
+!data/phone/README.txt
