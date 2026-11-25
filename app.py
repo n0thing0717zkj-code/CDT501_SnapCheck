@@ -36,13 +36,22 @@ st.markdown(CSS, unsafe_allow_html=True)
 
 @st.cache_resource
 def get_model():
-    return load(ROOT / "out" / "models" / "model.joblib")
+    try:
+        return load(ROOT / "out" / "models" / "model.joblib")
+    except Exception:
+        from src.deploy_model import build_from_csv
+        return build_from_csv(ROOT)
 
 
 @st.cache_resource
 def get_calibration():
     p = ROOT / "out" / "models" / "phone_calibration.joblib"
-    return joblib.load(p)["iso"] if p.exists() else None
+    if not p.exists():
+        return None
+    try:
+        return joblib.load(p)["iso"]
+    except Exception:
+        return None
 
 
 def read_summary():
@@ -145,7 +154,12 @@ def main():
         st.error("这张图读不出来，换一张试试。 / Could not read this image.")
         return
 
-    img_model, res = run(img_bgr, is_phone)
+    try:
+        img_model, res = run(img_bgr, is_phone)
+    except Exception as exc:
+        st.error(f"分析失败 / Analysis failed: {type(exc).__name__}: {exc}")
+        st.exception(exc)
+        return
     accept = res["accept"]
     color = "#2E7D32" if accept else "#C0504D"
     badge_text = "可以使用 / Accept" if accept else "建议重拍 / Retake"
