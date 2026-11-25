@@ -5,21 +5,37 @@
 """
 import csv
 import sys
+import traceback
 from pathlib import Path
 
-import cv2
-import joblib
-import numpy as np
 import streamlit as st
 
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT))
 
-from src.model import load  # noqa: E402
-from src.phone_prep import resize_for_model  # noqa: E402
-from src.pipeline import analyze, annotate  # noqa: E402
+BOOT_ERROR = None
+try:
+    import cv2
+    import joblib
+    import numpy as np
+    from src.model import load
+    from src.phone_prep import resize_for_model
+    from src.pipeline import analyze, annotate
+except Exception:
+    BOOT_ERROR = traceback.format_exc()
 
 st.set_page_config(page_title="照片体检 SnapCheck", page_icon="📷", layout="wide")
+
+if BOOT_ERROR:
+    import platform
+
+    st.error("启动失败 / Startup failed")
+    st.code(BOOT_ERROR)
+    st.caption(
+        f"Python {platform.python_version()} · {platform.platform()} · "
+        f"cwd={Path.cwd()}"
+    )
+    st.stop()
 
 CSS = """
 <style>
