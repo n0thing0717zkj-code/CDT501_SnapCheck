@@ -109,3 +109,14 @@ python make_dataset.py --phone
 
 手机照片会自动缩放到训练尺寸并做留一页校准；合成图用原模型。
 
+## 部署到公网（Streamlit Community Cloud）
+
+1. 打开 https://share.streamlit.io ，用 GitHub 登录并授权访问 `CDT501_SnapCheck` 仓库
+2. New app → 选择 `n0thing0717zkj-code/CDT501_SnapCheck`，branch `main`，main file `app.py`
+3. Advanced settings → Python 3.12
+4. Deploy（首次约 3–5 分钟安装依赖和 Tesseract）
+5. 得到公开链接，任何人可打开；免费实例闲置会休眠，首次访问需等 20–30 秒唤醒
+
+仓库里的 `packages.txt` 会在服务器上安装 `tesseract-ocr`，`tessdata/` 提供中英文语言包。
+
+

@@ -84,12 +84,12 @@ def run(img_bgr, is_phone):
 
 
 EXAMPLES = {
-    "手机 · 正拍 / phone, upright": ("data/phone/p01a.jpg", True),
-    "手机 · 斜拍 30° / phone, tilted": ("data/phone/p01b.jpg", True),
-    "手机 · 反光 / phone, glare": ("data/phone/p01c.jpg", True),
-    "手机 · 暗光 / phone, dim light": ("data/phone/p01d.jpg", True),
-    "合成 · 倾斜 65% / synthetic, tilt": ("data/degraded/p050_tilt65_1.jpg", False),
-    "合成 · 反光 85% / synthetic, glare": ("data/degraded/p002_glare85_2.jpg", False),
+    "手机 · 正拍 / phone, upright": ("assets/sample_upright.jpg", True),
+    "手机 · 斜拍 30° / phone, tilted": ("assets/sample_tilted.jpg", True),
+    "手机 · 反光 / phone, glare": ("assets/sample_glare.jpg", True),
+    "手机 · 暗光 / phone, dim light": ("assets/sample_dim.jpg", True),
+    "合成 · 倾斜 65% / synthetic, tilt": ("assets/synthetic_tilt.jpg", False),
+    "合成 · 反光 85% / synthetic, glare": ("assets/synthetic_glare.jpg", False),
 }
 
 

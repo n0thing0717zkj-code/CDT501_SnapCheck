@@ -5,6 +5,7 @@
 """
 import os
 import re
+import shutil
 from pathlib import Path
 
 import numpy as np
@@ -20,11 +21,13 @@ _KEEP = re.compile(r"[^\u4e00-\u9fffa-zA-Z0-9]+")
 def configure(tessdata=None, exe=None):
     if exe is None:
         exe = os.environ.get("TESSERACT_EXE", DEFAULT_EXE)
+    if not os.path.exists(exe):
+        exe = shutil.which("tesseract") or exe
     if os.path.exists(exe):
         pytesseract.pytesseract.tesseract_cmd = exe
     else:
         raise FileNotFoundError(
-            "找不到 tesseract.exe。请安装 Tesseract，或设置环境变量 TESSERACT_EXE。"
+            "找不到 tesseract。请安装 Tesseract，或设置环境变量 TESSERACT_EXE。"
         )
     data = str(tessdata or DEFAULT_TESSDATA)
     if os.path.isdir(data):
